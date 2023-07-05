@@ -8,5 +8,4 @@ export class Todo {
         this.id = Math.random();
         this.completado = false;
     }
-
 }
