@@ -32,7 +32,7 @@ export class TodoFooterComponent implements OnInit {
   }
 
   limpiarCompletados() {
-    this.store.dispatch(limpiarAll())
+    this.store.dispatch(limpiarAll());
   }
 
 }
